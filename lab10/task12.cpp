@@ -1,4 +1,19 @@
-//1012
+//1012 Array Traversal by Pointer
+
+// Arrays in C++ act very much like pointers. Write a program that finds the maximum value in an array, but you are not allowed to use square brackets [] to access elements inside your loop. You must use pointer dereferencing (e.g., *(arr + i) or incrementing a pointer ptr++).
+
+// In your main function:
+
+// 1. Read an integer n.
+
+// 2. Read n integers into an array.
+
+// 3. Iterate through the array using a pointer to find the maximum value.
+
+// 4. Print the maximum value.
+
+
+
 #include <iostream>
 
 using namespace std;
@@ -34,8 +49,10 @@ int main(){
     int a[n];
 
     read_array(a, n);
-    //print_array(a, n);
+    
     cout << max_in_array(a, n);
 
     return 0;
 }
+
+
